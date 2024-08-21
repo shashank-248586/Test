@@ -1,0 +1,84 @@
+20.
+A measurement of central tendency is a summary measures that to attempts to describe a whole set of data with a sing
+value that represens the middle or center of the data.
+3 measures of central tendency are mean,median,mode.
+
+A measures of dispersion is describe the data point how far from center or mid point.
+Standard Deviation is the most commen used as dispersion.
+
+21.
+skewness is the measure of asymmetry of distribution.
+skewness is two type (i)->right skewness ,(ii)->left skewness.
+
+22.
+The main difference between pdf and pmf is pmf is used for discrit random variable or function of discrit random
+variable but pdf is used for continuous random variable function.
+
+23.
+correlation is a statstical measure that expresses the extend ti which two variables are linearly dependent.
+there are two type of correlation are in statistics positive correlation and negative correlation.
+
+25.
+correlation define a statstical measurement that determines how two features are correlated but regression determines how one 
+features dependent or represents a label.
+in correlation only features are present but in regression both features and label are present.
+in correlation only two features can be compared but in regression many features along with one label can compared.
+correlation not predict any but regression also.
+
+26.
+price at agra = 70
+correlation = +0.8
+value at delhi = 70+0.8*70 = 126
+
+27.
+variance of x = 9
+regression lines are 8x-10y=-66  40x-18y=214
+mean value of x =13 mean value of y = 17
+coefficent of correlation between x&y = 0.75
+
+28.
+Normal distribution also known as the Gaussian distribution is a probability distribution that symmetric about 
+the mean.
+the 4 assumption of normal distribution are
+i-> symmetric
+ii-> unimodal
+iii-> asymptotic
+iv-> mean,median and mode are equal.
+
+29.
+Normal distribution curve is symmetric about its mean.
+its mean,median and mode are allign in one centerd.
+68% data lies in one Deviation, 95% data lies in two deviation and 99.7% data lies in three deviation.
+skewness is 0.
+
+30.
+b,c,d are right.
+
+31.
+mean  = 60
+std = 10
+i between 60-72 34% data 
+ii between 50-60 34% data
+iii beyond 72 16% data
+iv 70-80 13.5% data
+
+32. mean  =49
+std =  6
+2400 students scores more than 55
+20 students score more than 70
+
+33.
+mean = 65
+std = 5
+no of students =500
+80 students have height above 70 inchs
+340 students vave height between 60-70inches
+
+34.
+A statment about the nature f a population.it is often stated in terms of a population parameter.
+there is an null hypothesis and an alternative hypothesis.
+There are two type error in hypothesis testing such as 
+Type-1 when you say that null hypothesis is false when it actually is true.
+Type-2 when you say that null hypothesis is true when it actually is false.
+
+if the size of sample is greater than 30 then it is large sample if less than 30 then it small sample.

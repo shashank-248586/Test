@@ -1,0 +1,142 @@
+1.	Static variables have fixed memory locations,limited scope while dynamic variables are run time memory allocation,boarder scope and object-specified data.
+2.	Pop() :- used for delete a specified value with key.
+Popitem():- used for delete last key value pair of a  dictinary;
+Clear():- used for remove all the key value paie in that dictionary.
+Ex:-
+Car = {
+“uxv”:12,
+“srt”:20,
+“gtx”:24
+}
+Car.pop(“uxv”);
+Car.popitem();
+Car.clear();
+3.	Frozenset() is a method in python  to create an  immutable set object from a itrable.
+Ex:-animal = [“deer”,”lion”,”elephant”]
+New_animal = frozenset(animal)
+
+4. mutable object in python are can change in further next line.
+Ex:- dictinary,list
+but immutable object are cannot change in python.
+Ex:- tupple
+5. __init__ is to bound to class when object is instasiate then we need to give parameters.
+class animal:
+    def __init__(self,name):
+        self.name  = name
+    def get_name(self):
+        print(self.name)
+
+cow  = animal("cow")
+cow.get_name()
+
+6.doc string used to give clarify of a function if we need.
+Ex:-
+def fun():
+    '''
+        this is the example of docstring.'''
+print(fun.__doc__)
+
+8.break used for vanish the loop in programming.
+for i in range(10):
+    if(i == 8)break
+
+continue used for skip the itration in a loop
+for i in range(10):
+    if(i%2 == 0 )continue
+ 
+pass used in function to pass that function
+
+9.self is bound to class
+Ex:-
+class frute:
+    def __init__(self,name):
+        self.name = name
+ 
+10.global attribute in python is that the variables can accessable to outside class
+private attribute dont give access to access that variables
+protected attribute give access to child class to access the variables
+
+11.group of classes in same python file is called module 
+group of module  in same file called package
+
+12.list is mutable but tupple is immutable.
+ 
+13.List comphersion:- make a list with readable and in sort manner.
+Ex   a  = [ i for i in range(1,11)]
+
+dist comphersion :- make a dictinary with value are in list comphersion.
+Ex  a ={
+    "apple":[i for i in range(1,11)],
+    "banana":[i for i in range(4,20)]
+}
+ 
+14.decorators:- in python decorators are allow programming to modify the behaviour of a class or function.
+Ex:-
+def dec1(fun):
+    def inner():
+        x = fun()
+        return x*x
+    return inner
+@dec1
+def num():
+    return 10;
+
+print(num())
+
+15. in python memory are managed in two way Static and dynamic.
+16.lambda is a small anonymous function.
+Ex:- x = lambda a: a+10
+print(x(5))
+
+17.split() occures split a string into substring by given value
+Ex:- a = "ramensh is a good student"
+sub_string = a.split(" ")
+print(sub_string)
+
+join() join the sub_string or list of character in a single string
+Ex 
+a = ['r','a','m','e','s']
+print("".join(a))
+
+18.
+itraters in python occures itrate one by one 
+Ex
+a = [1,2,3,4,5,6]
+it = iter(a)
+print(next(it))
+print(next(it))
+print(next(it))
+
+itrable in python are those object which can be looped over with the help of a for loop.
+Ex list,string,dictinary
+
+generatore is generate a pericular manner in python
+Ex
+generatore= [num **2 for num in range(20)]
+it = iter(generatore)
+next(it)
+
+
+19.
+range() returntype is list but xrange() returntype is xrange
+range consume more memory than xrange
+
+
+20.
+pillers of oops are inheritance,encapsulation , polymerphism ,abstaction.
+
+21.
+issubclass() give whether a class is chid class or not.
+22.
+inheritance is the property of oops in which child class inhherits all attribute,methods of parent class.
+inheritance 5 type :-single inheritance,multilebel inheritance, multiple inheritance, hirachical,hybrid.
+
+23.
+encapsulation is the process of in which a attribute can encapsulate form outliers.
+encapsulation is 3 type public, private, protected.
+
+24.
+polymerphism means many forms.
+in polymerphism includes methodoverriding and methodoverloading.
+1.2
+Serial_no,Hundred$,Total_Marks,total_Marks,_Percentag are valid identifier.

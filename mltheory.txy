@@ -1,0 +1,177 @@
+series have only one column but DataFrame having multiple column.
+
+loc used when we want to select row and column based on there lables,but 
+iloc used when we want specific position in a  DataFrame.
+
+In supervised learnings both feature and lables are present in datasets.we perform prediction on that perticular
+datasets.But in unsupervised learnings there are only feature datasets are given we perform clustering or gruping 
+according to datasets.
+
+In statistics and machine learning the bias-variance tradeoff describe the relation ship between a model's 
+complexity ,accuracy ,and its predictions and how well it can make prediction on test dataset.
+
+precision is the true positive divide by true positive plus flase positive
+recall is true positive divide by true positive plus flase negative
+
+when a machine learning model memories the dataset then that called overfitting.
+to reduce it we add some error.
+
+Cross validation is a technique for evaluating ml models by training several ml model on subsets of the avilable
+input data and evaluating them on the complimentary subsets of data.
+
+the lables sets of Regression is continious and for performance we use r2 matrix.
+but the lables of classification is discrite we mesures it problbility value and for proformance we use 
+accuracy score matrix.
+
+Ensembling learning is a machine learning technique that aggrigates two or more learners in order to produce better
+prediction.it contain several model as a single model.
+
+Gradient descent is a technique that find optimum point  or the changes to the model that move it along a slope
+or Gradient in a graph toward the lowest possible error value.
+
+batch gradient descent computes gradient using the whole training sample, it is slow and computestionaly expensive
+and take much time but stochastic gradient descent computes gradient using a single training sample ,it is faster
+than batch and less computestionaly expensive.
+
+As we increse the number of feature in traning purpose then it take both space and time so we use less feature to
+perform our model.
+
+in cost funtion l1 regularization is the 1 norm mean sum of modulos of parameters
+but l2 regularization contain 2 norm mean euclidian norm or sum of squares of parameterds
+ 
+Confusion matrix is a performance evaluation tool in machine learning representing the accuracy of a classification
+model.
+
+k nearest Neighbour is one of the simplest ml algorithm based on supervised learnings.
+knn assumes the similarity between the new data and avilable data that is most similar to the avilable categories
+This means when new data appears then it can be easily classified into a well category.
+
+support vectore machine is a type of supervised learning algorithm used in machine learning to solve classification 
+and Regression tasks.SVM are perticularly good at solving binary classification problems which require classifying the
+elements of a datasets into two grops 
+
+To Conclude, hard margin SVM aims to find a hyperplane that perfectly separates the data into two classes
+without any misclassification, while soft margin SVM allows some misclassification by introducing slack variables.
+
+How Decision Trees Work?
+The process of creating a decision tree involves:
+
+Selecting the Best Attribute: Using a metric like Gini impurity, entropy, or information gain, the best attribute to split the data is selected.
+Splitting the Dataset: The dataset is split into subsets based on the selected attribute.
+Repeating the Process: The process is repeated recursively for each subset, 
+creating a new internal node or leaf node until a stopping criterion is met 
+e.g., all instances in a node belong to the same class or a predefined depth is reached.
+
+
+Advantages of Decision Trees
+
+Simplicity and Interpretability: Decision trees are easy to understand and interpret. The visual representation closely mirrors human decision-making processes.
+Versatility: Can be used for both classification and regression tasks.
+No Need for Feature Scaling: Decision trees do not require normalization or scaling of the data.
+Handles Non-linear Relationships: Capable of capturing non-linear relationships between features and target variables.
+Disadvantages of Decision Trees
+
+Overfitting: Decision trees can easily overfit the training data, especially if they are deep with many nodes.
+Instability: Small variations in the data can result in a completely different tree being generated.
+Bias towards Features with More Levels: Features with more levels can dominate the tree structure.
+
+The random forest has complex data visualization and accurate predictions, but the decision tree has simple 
+visualization and less accurate predictions. The advantages of Random Forest are that it prevents overfitting
+ and is more accurate in predictions.
+
+ Random Forest algorithm is a powerful tree learning technique in Machine Learning. It works by creating a number of Decision Trees during the training phase. Each tree is constructed using a random subset of the data set to measure a random subset of features in each partition. This randomness introduces variability among individual trees, reducing the risk of overfitting and improving overall prediction performance.
+
+In prediction, the algorithm aggregates the results of all trees, either by voting (for classification tasks) 
+or by averaging (for regression tasks) This collaborative decision-making process, supported by multiple trees 
+
+with their insights, provides an example stable and precise results. Random forests are widely used for 
+classification and regression functions, which are known for their ability to handle complex data, reduce 
+overfitting, and provide reliable forecasts in different environments.
+
+Features in machine learning, also known as variables or attributes, are individual measurable properties or 
+characteristics of the phenomena being observed. They serve as the input to the model, and their quality and 
+quantity can greatly influence the accuracy and efficiency of the model. There are three primary categories of 
+features:
+
+Numerical Features: These features represent quantitative data, expressed as numerical values (integers or 
+decimals). Examples include temperature (°C), weight (kg), and age (years).
+Categorical Features: These features represent qualitative data, signifying the category to which a data point 
+belongs. Examples include hair color (blonde, brunette, black) and customer satisfaction (satisfied, neutral, 
+dissatisfied).
+Ordinal Features: These features are a subtype of categorical features, possessing an inherent order or 
+ranking. Examples include movie ratings (1 star, 2 stars, etc.) and customer service experience (poor, average, 
+excellent).
+
+
+hyperparameter of random forest are 
+n_estimatores , max_depth, min_sample_test, mean_sample_leaf, max_features
+
+does not make many of the key assumptions of linear regression and general linear models that are based on ordinary least squares algorithms – particularly regarding linearity, normality, homoscedasticity, and measurement level.
+
+logistic Regression First, logistic regression does not require a linear relationship between the dependent and independent variables.  Second, the error 
+terms (residuals) do not need to be normally distributed.  Third, homoscedasticity is not required.  Finally, 
+the dependent variable in logistic regression is not measured on an interval or ratio scale.
+
+Logistic regression predicts the output of a categorical dependent variable. Therefore, the outcome must be a 
+categorical or discrete value.
+It can be either Yes or No, 0 or 1, true or False, etc. but instead of giving the exact value as 0 and 1, it 
+gives the probabilistic values which lie between 0 and 1.
+In Logistic regression, instead of fitting a regression line, we fit an “S” shaped logistic function, which
+ predicts two maximum values (0 or 1).
+
+sigmoid function is =1/(1+e^-x) 
+used in classification model
+
+cost function in logistic regression is -1[ y(log(y')) + (1-y)log(1-y')]
+
+Logistic regression can be applied to solve multiclass problems. For each class, build a logistic regression to 
+find the probability the observation belongs to that class. For each data point, predict the class with the 
+highest probability. Normalizes probabilities so they sum to 1
+
+The regression model which uses L1 regularization is called Lasso Regression and model which uses 
+L2 is known as Ridge Regression.
+l1 regression is 1norm but l2 regularization is 2norm
+
+Regularization: XGBoost incorporates both L1 (Lasso regression) and L2 (Ridge regression) regularization 
+techniques, which help prevent overfitting by penalizing complex models. This feature enables the algorithm to 
+produce more generalizable models, making it suitable for a wide range of business applications.
+
+
+As we know, Ensemble learning helps improve machine learning results by combining several models. This approach
+ allows the production of better predictive performance compared to a single model. Basic idea is to learn a 
+ set of classifiers (experts) and to allow them to vote. Bagging and Boosting are two types of Ensemble Learning. These two decrease the variance of a single estimate as they combine several estimates from different models. So the result may be a model with higher stability. Let’s understand these two terms in a glimpse.
+
+Bagging: It is a homogeneous weak learners’ model that learns from each other independently in parallel and 
+combines them for determining the model average.
+Boosting: It is also a homogeneous weak learners’ model but works differently from Bagging. In this model, 
+learners learn sequentially and adaptively to improve model predictions of a learning algorithm.
+
+XGBoost supports missing values by default. In tree algorithms, branch directions for missing values are learned during training. Note that the gblinear booster 
+treats missing values as zeros.
+
+When the missing parameter is specified, values in the input predictor that is equal to missing will be treated 
+as missing and removed. By default it’s set to NaN.
+
+hyperparameter of XGBoost eta,gamma, max_depth,min_child,subsamble.
+
+
+
+Advantages:
+
+High accuracy: XGBoost is known for its high accuracy, making it a popular choice for machine learning tasks that require high precision. It works by combining multiple decision trees to make more accurate predictions, making it effective for tasks such as image and speech recognition, natural language processing, and recommendation systems.
+
+Speed: XGBoost is designed to be fast and efficient, even for large datasets. It is optimized for both single- and multi-core processing, making it an excellent choice for tasks that require fast predictions.
+
+Regularization: XGBoost includes regularization techniques that help to prevent overfitting, which is a common problem in machine learning. It uses a combination of L1 and L2 regularization to reduce the complexity of the model, resulting in more robust and accurate predictions.
+
+Flexibility: XGBoost is a flexible algorithm that can be used for a variety of machine-learning tasks, including classification, regression, and ranking. It is also compatible with a wide range of programming languages, including Python, R, and Java.
+
+Disadvantages:
+
+Complexity: XGBoost is a complex algorithm that requires some degree of technical expertise to implement and optimize effectively. It can be challenging to configure and tune the many hyperparameters that are involved, which can make it time-consuming to work with.
+
+Overfitting: While XGBoost includes regularization techniques to prevent overfitting, it is still possible for the algorithm to overfit the training data. This can lead to inaccurate predictions of new data.
+
+Memory usage: XGBoost can be memory-intensive, especially for large datasets. This can make it challenging to run on computers with limited memory, leading to slower performance.
+
+Lack of transparency: XGBoost has often been considered a "black box" algorithm, which means that it can be difficult to interpret and understand how it arrives at its predictions. This can make it challenging to troubleshoot and fine-tune.
